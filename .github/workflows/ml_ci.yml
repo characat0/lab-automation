@@ -33,7 +33,5 @@ jobs:
     - name: Run pytest
       run: pytest tests/
     # TODO: Run dvc pull (or echo fallback)
-    - name: DVC pull
-      run: dvc pull
-    # TODO: Generate Markdown report using $GITHUB_STEP_SUMMARY
+
 
